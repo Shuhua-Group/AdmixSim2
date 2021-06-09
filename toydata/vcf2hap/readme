@@ -1,0 +1,10 @@
+input: *.vcf
+output: *.hap    *.ind   *.pos
+
+parameter:
+--input: prefix of input vcf [required]
+--chr: chromosome label, 1,2,...,22,X [required]
+--output: prefix of output file (.hap, .ind, .pos) [required]
+
+command line for example data:
+ python vcf2hap.py --input input --chr 1 --output output

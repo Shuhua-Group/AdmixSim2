@@ -1,0 +1,15 @@
+input: *.hap	*.ind	*.pos
+output: *.vcf
+
+*.hap:	one haplotype per line, can be in binary format ('0' for reference allele, '1' for alternative allele) or DNA base
+*.ind:	individual label
+*.pos:	three column: physical position, reference allele, alternative allele
+
+parameter:
+--input: prefix of three input files: *.hap, *.ind, *.pos [required]
+--chr:	chromosome label, 1,2,...,22,X [required]
+--datatype: hap datatype, A for DNA base (AGCT), 0 for binary format (01) [required]
+--output: prefix of output vcf file [required]
+
+commands line for example data: 
+python hap2vcf.py --input input --chr 1 --datatype 0 --output output	

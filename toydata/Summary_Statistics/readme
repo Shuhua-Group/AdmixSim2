@@ -1,0 +1,30 @@
+calculate the following statistics within given regions:
+1.number of sequence
+2.number of genetic markers
+3.number of singleton
+4.ThetaPI
+5.ThetaK
+6.number of segregating site
+7.number of haplotype
+8.Haplotype diversity
+9. Tajima's D (with p-values and BH-corrected P-values)
+
+input: 
+1. phased VCF file [required]
+2. target regions to be analyzed [required]
+3. samples to be included [optional, default = 'all']
+4. length of sliding windows (bp) and increment [optional, default = 'target_region']
+5. name of output file [optional, default = 'out']
+
+output:
+*.stat
+
+parameter:
+--vcf: input vcf file
+--region: region file, 4 columns: <region ID> <chrom ID> <start pos> <end pos>, no header line, tab or space separated
+--samples: included sample ID list
+--window_shift: windowsize@increment
+--out: prefix of output file
+
+commands line for example data:
+python Summary_Statistics.py --vcf input.vcf --region input.region --out output

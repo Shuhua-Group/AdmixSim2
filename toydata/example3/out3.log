@@ -1,0 +1,31 @@
+AdmixSim 2 
+Arguments and Options:
+  Modfile = test.X.mod
+  SNVfile = test.X.snv
+  Hapfile = test.X.hap
+  Indfile = test.X.ind
+  Output population list and corresponding generation and population size: Admixed 8g 4; 
+  Seed = 1599362211
+  Chr = X
+  Recombinaion Setting: Using locus-specific genetic distance in snv file
+  Mutation Setting: Using locus-specific mutation rate in snv file
+  Out prefix = out3
+==========================================================================================================
+
+Simulation start! Sun Sep  6 11:16:51 2020
+
+Reading snvfile time: 0s
+Reading indfile time: 0s
+Reading modfile time: 0s
+Reading hapfile time: 0s
+
+Simulation time: 0s
+
+Saving ancestral sequence data time: 0s
+
+Final add de novo mutation and output snvfile time: 0s
+
+Population Admixed at generation 8 output time: 0s
+
+Simulation end! Sun Sep  6 11:16:52 2020
+
