@@ -10,6 +10,11 @@
 
 #include "Haplotype.hpp"
 
+/**********************************************
+ * Each Individual consists of two haplotype  *
+ * and corresponding sex information          *
+ **********************************************/
+
 class Individual
 {
 private:

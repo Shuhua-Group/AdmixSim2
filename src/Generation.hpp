@@ -10,6 +10,11 @@
 
 #include "Individual.hpp"
 
+/********************************************************************
+ * For a specified population, 										*
+ * each generation consists of user-specified number of individuals *
+ ********************************************************************/
+
 class Generation
 {
 private:

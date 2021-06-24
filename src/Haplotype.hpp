@@ -13,6 +13,15 @@
 #include <set>
 #include "Segment.hpp"
 
+
+/**************************************************************
+ * Each haplotype consists of a list of segments,			  *
+ * a list recording the recombination points,				  *
+ * a list recoding the de novo mutation points,				  *
+ * and a map recording the physical positions under selection *
+ * and corresponding states of allele						  *
+ **************************************************************/
+
 class Haplotype
 {
 public:

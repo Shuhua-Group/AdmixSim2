@@ -10,6 +10,11 @@
 
 #include "Generation.hpp"
 
+/*************************************************************************
+ * Each population consists of individuals spreading several generations *
+ * specified in the demographic model									 *
+ *************************************************************************/
+
 class Population
 {
 public:

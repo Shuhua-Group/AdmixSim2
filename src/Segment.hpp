@@ -10,6 +10,12 @@
 
 #include <string>
 
+/************************************************************
+ *	Each segment of haplotype is identified as 				*
+ *	the start physical position, the end physical position, *
+ *	and the label it originates from						*
+ ************************************************************/
+
 class Segment
 {
 public:
